@@ -745,8 +745,8 @@ static const VSFrame *VS_CC readGetFrame(int n, int activationReason, void *inst
             return nullptr;
         }
 
-        if (alphaFrame)
-            vsapi->mapConsumeFrame(vsapi->getFramePropertiesRW(frame), "_Alpha", alphaFrame, maAppend);
+        //if (alphaFrame)
+            //vsapi->mapConsumeFrame(vsapi->getFramePropertiesRW(frame), "_Alpha", alphaFrame, maAppend);
         return frame;
     }
 
